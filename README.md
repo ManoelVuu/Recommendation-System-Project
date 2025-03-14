@@ -1,21 +1,21 @@
-# Recommendation-System-Project
-Building a system to suggest items (products, content, services) based on user history.
+# E-commerce Recommendation System
+Building a system to suggest items based on user behavior from an e-commerce dataset.
 
 ## Goal
-Create a tool that suggests accurate, fast, and helpful items to users using their past actions.
+Suggest items to users using past interactions (views, add-to-carts, transactions), item properties, and removing abnormal users for accuracy.
 
 ## Analytical Questions
-1. What items are users interacting with the most?
-2. Do users with similar tastes pick similar items?
-3. How accurate are my suggestions compared to what users actually like?
-4. Are my suggestions diverse or too repetitive?
-5. How quickly can I generate suggestions?
-6. Which user actions best show what they like?
-7. Can these suggestions increase clicks or sales?
+1. Which items are most viewed, added to cart, or bought?
+2. Do users with similar viewing patterns also add similar items to carts?
+3. How do item properties (e.g., category, price) relate to add-to-cart events?
+4. Can I spot abnormal users (e.g., too many views, no buys) to remove them?
+5. How accurate are my suggestions compared to actual transactions?
+6. Are suggested items diverse across categories?
+7. How fast can I generate suggestions with this data size?
 
 ## Tools
-- **Python**: Coding language.
-- **Pandas**: Data handling.
+- **Python**: Main language.
+- **Pandas**: Data exploration and cleaning.
 - **Scikit-learn**: Modeling.
-- **Matplotlib**: Charts.
+- **Matplotlib**: Visualizations.
 - **Jupyter Notebook**: Code and notes.
